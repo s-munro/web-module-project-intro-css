@@ -1,0 +1,294 @@
+/*** BASE CSS REMOVAL ***/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+body {
+  background: white;
+  line-height: 1;
+  color: black;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* tables still need cellspacing="0" in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+
+blockquote,
+q {
+  quotes: """";
+}
+
+/**** BEGIN MY CSS ***/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  /* border: solid 2px lightgray; */
+  /* border: 1px solid grey; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  /* line-height: 2; */
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+
+h1 {
+  font-family: 'Chelsea Market', cursive;
+  font-size: 5rem;
+}
+
+p {
+  line-height: 1.25;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* the meat and potatoes */
+/******* NAV AREA **********/
+nav {
+  text-align: center;
+  /* margin-top: 50px; */
+  margin-bottom: 50px;
+}
+
+nav a {
+  border-radius: 15px;
+  padding: 10px;
+  margin: 25px 100px 25px 100px;
+  /* margin-top: 25px; */
+  max-width: 130px;
+  display: inline-block;
+}
+
+.but-one {
+  color: white;
+  background-color: #FF763E;
+}
+
+.but-two {
+  color: white;
+  background-color: #5ED3EB;
+}
+
+.but-three {
+  color: white;
+  background-color: #FFCD69;
+}
+
+/******** END NAV **********/
+
+/****** YOSE CONTAINER *****/
+.yose-container {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.yose-img {
+  border-radius: 50%;
+  display: inline-block;
+  width: 250px;
+}
+
+.yose-text-container {
+  display: inline-block;
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+.explore {
+  margin-bottom: 10px;
+}
+
+.yose-cta {
+  margin: 0 20%;
+}
+
+/******* ABOUT TEXT ********/
+
+.container-center {
+  text-align: center;
+}
+
+.main-text {
+  color: white;
+  background-color: #DDB9A3;
+  margin: 10px 5% 0px 5%;
+  padding: 10px 20px;
+}
+
+.about-par {
+  margin-bottom: 20px;
+}
+
+/***** END ABOUT ********/
+
+/************************
+****** SECTION *********
+*************************/
+
+section {
+  text-align: center;
+}
+
+/*** FIRE SEC ***/
+.fire-container {
+  margin-bottom: 50px;
+}
+
+.fire {
+  margin: 0 37.5%;
+}
+
+.fire-img {
+  margin-top: 20px;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+}
+
+/*** BUS SEC ***/
+.bus-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.bus-img {
+  display: inline-block;
+  width: 200px;
+}
+
+.bus {
+  margin: 0 37.5%;
+}
+
+/***** *****/
+img {
+  display: inline-block;
+}
+
+.yose-pano {
+  background-image: url("assets/footer_img.jpg");
+  background-repeat: no-repeat;
+  background-position: 10% 20%;
+  background-attachment: scroll;
+  height: 300px;
+  width: 100%;
+
+}
+
+/**** 
+footer
+****/
+
+.footer-nav {
+  background-color: #f9E7DC;
+  margin-top: 0;
+  margin-bottom: 0;
+}
